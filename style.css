@@ -1,0 +1,59 @@
+/* A#h2element,.group,li{
+    letter-spacing: 8px;
+}
+
+ol li a {
+    text-decoration: none;
+} */
+
+/* *{
+    color: blueviolet;
+} */
+
+/* body{
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/31/05/05/background-618226_640.png);
+    background-repeat: no-repeat;
+    background-position: 20px 40px; 
+    background-size: cover;
+    background-attachment:fixed;
+} */
+
+
+/* .box1{
+    box-sizing: border-box;
+    border: 2px solid gray;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px 30px;
+    display: inline-block;
+}
+.box2{
+    border: 3px solid gray;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.box3{
+
+    border: 3px solid gray;
+    margin: 20px;
+    padding: 10px;
+} */
+.p1{
+    position: absolute;
+    top: 200px;
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    
+}
+.p2{
+    position: absolute;
+    top: 5px;
+    height: 250px;
+    width: 150px;
+    border: 2px solid red;
+}
