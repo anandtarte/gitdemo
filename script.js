@@ -42,23 +42,24 @@ let arr=[1,2,3,4];
 
 
 arr.forEach((item)=>{
-    console.log("foreach function",item);
+    if(item<2)
+        return console.log("foreach function",item);
 });
-// let transformArr=arr.map((item)=>{
-//     if(item>2)
-//         return item * 2;
-// })
+let transformArr=arr.map((item)=>{
+    if(item>2)
+        return item * 2;
+})
 
-// let transformArr2=arr.filter((item)=>{
-//     return item>2;
-// })
+let transformArr2=arr.filter((item)=>{
+    return item>2;
+})
 
-// console.log(transformArr);
-// console.log(transformArr2);
+console.log("map",transformArr);
+console.log("filter",transformArr2);
 
-// let transformArr3=arr.reduce((a,item)=>{
-//     return a=a+item;
-// },0);
+let transformArr3=arr.reduce((a,item)=>{
+    return a=a+item;
+},0);
 
-// console.log(transformArr3);
+console.log(transformArr3);
 
