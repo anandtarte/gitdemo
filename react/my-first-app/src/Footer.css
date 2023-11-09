@@ -1,0 +1,12 @@
+body{
+    overflow-x: hidden;
+}
+.Footer{
+    background-color: rgb(127, 127, 223);
+    text-align: center;
+    width: 100vw;
+    bottom: 0px;
+    color: white;
+    padding-top: 1rem;
+    height: 3.5rem;
+}

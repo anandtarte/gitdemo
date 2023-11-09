@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+}
+.Card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.price{
+    color: grey;
+    font-size: 22px;
+}
+.Card button{
+    border: none;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    cursor: pointer;
+    width: 100%;
+}
+.Card h1{
+    color: black;
+
+}
+.Card button:hover{
+    background-color: chocolate;
+    color: white;
+}
